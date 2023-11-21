@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="images/bg-desktop-light.jpg" alt="background" class="bg_light" />
+    <img src="images/bg-mobile-light.jpg" alt="background" class="mobile_light" />
+    <main>
+      <div class="head">
+        <h1>Todo</h1>
+        <img src="images/icon-moon.svg" alt="dark mode button" class="darkToggle"/>
+      </div>
+      <div class="inputDiv">
+        <div class="radioToDo"></div>
+        <input type="text" class="inputToDo" />
+      </div>
+      <div class="toDoList">
+        <div id="list">
+          <!-- <div class="inputDiv item">
+            <div class="it">
+              <div class="radioToDo"></div>
+              <p>Completed online Javascript Course</p>
+            </div>
+            <img src="images/icon-cross.svg" alt="clear" class="clear">
+          </div>
+          <div class="inputDiv item">
+            <div class="it">
+              <div class="radioToDo"></div>
+              <p>Jog around the park 3x</p>
+            </div>
+            <img src="images/icon-cross.svg" alt="clear" class="clear">
+          </div>
+          <div class="inputDiv item">
+            <div class="it">
+              <div class="radioToDo"></div>
+              <p>10 minutes meditation</p>
+            </div>
+            <img src="images/icon-cross.svg" alt="clear" class="clear">
+          </div>
+          <div class="inputDiv item">
+            <div class="it">
+              <div class="radioToDo"></div>
+              <p>Read for one hour</p>
+            </div>
+            <img src="images/icon-cross.svg" alt="clear" class="clear">
+          </div>
+          <div class="inputDiv item">
+            <div class="it">
+              <div class="radioToDo"></div>
+              <p>Pick Up Groceries</p>
+            </div>
+            <img src="images/icon-cross.svg" alt="clear" class="clear">
+          </div> -->
+        </div>
+        <div class="listButtom">
+          <p>
+            <span class="count">0</span>
+            items left
+          </p>
+          <div>
+            <span class="active tab">All</span> <span class="tab">Active</span>
+            <span class="tab">Completed</span>
+          </div>
+          <p id="clear_complete">Clear Completed</p>
+        </div>
+      </div>
+      <p>Drag and drop to reorder list</p>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

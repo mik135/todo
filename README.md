@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/todo)
-- Live Site URL: [Add live site URL here](https://mik135.github.io/todo)
+- Solution URL: [github](https://github.com/todo)
+- Live Site URL: [Live](https://mik135.github.io/todo)
 
 ## My process
 
